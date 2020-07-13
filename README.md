@@ -2,7 +2,13 @@
 Using yolov5 and deepsort to detect project, which you can choose any class(any class in coco dateset)
 
 # Install
-ubuntu 16.04    python >=3.7    cuda 10.0   cudnn 7.6.5     opencv-python 4.2.0.34  pytorch 1.5.1   torchvision 0.6.1
+- ubuntu 16.04
+- python >=3.7
+- cuda 10.0
+- cudnn 7.6.5
+- opencv-python 4.2.0.34
+- pytorch 1.5.1
+- torchvision 0.6.1
 
 ```
 conda create -n yolov5 python=3.7
@@ -22,7 +28,7 @@ python yolov5_deepsort.py demo/*.mp4(demo/img) --clsnum 2)
 tips: clsnum default is car(2), you can check configs/coco.names to select class name, it count begin 0.(person is 0, bicycle is 1...)
 
 # Result
-
+![video cut](/img_result/car_result1.png)
 
 # Contributers
 dhpdong, eyren
